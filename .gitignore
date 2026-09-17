@@ -1,0 +1,38 @@
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# API Keys
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Audio Files
+*.mp3
+*.wav
+*.flac
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+boykisser_voice.mp3
+*.pyc
+.pytest_cache/
